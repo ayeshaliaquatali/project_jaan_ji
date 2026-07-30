@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Jaan Ji ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Password Screen -->
+    <section id="welcome-screen">
+
+        <div class="glass-card">
+
+            <h1>🔒 Secret Birthday Portal</h1>
+
+            <p class="subtitle">
+                This surprise was made for only one special person... ❤️
+            </p>
+
+            <h2>💖 What name do I call you?</h2>
+
+            <input
+                type="text"
+                id="password"
+                placeholder="Type your answer here...">
+
+            <button id="unlockBtn">
+                Unlock My Surprise ❤️
+            </button>
+
+            <p id="error"></p>
+
+        </div>
+
+    </section>
+
+    <!-- Loading Screen -->
+    <section id="loading-screen" style="display:none;">
+
+    <div class="loading-card">
+
+        <h1>Access Granted ❤️</h1>
+
+        <pre id="loadingText"></pre>
+
+    </div>
+
+</section>
+
+    <!-- Intro Screen -->
+    <section id="intro-screen" style="display:none;">
+
+    <div class="intro-card">
+
+        <h1>Welcome, Jaan Ji ❤️</h1>
+
+        <p>
+
+            Har khoobsurat kahani ki ek shuruaat hoti hai...
+
+            <br><br>
+
+            Aur meri favourite kahani...
+            tumse shuru hoti hai. 🌹
+
+        </p>
+
+        <button id="startJourney">
+
+            Begin Our Journey ❤️
+
+        </button>
+
+    </div>
+
+</section>
+
+    <!-- Gallery -->
+    <section id="gallery-screen" style="display:none;">
+    <img id="bgImage" src="images/1.jpg" alt="">
+    <img id="slideImage" src="images/1.jpg" alt="Memory">
+
+    <div class="caption">
+        <h2 id="captionTitle">
+            Every beautiful story has a beginning... ❤️
+        </h2>
+    </div>
+
+</section>
+
+    <!-- Video -->
+    <section id="video-screen" style="display:none;">
+
+    <video
+        id="birthdayVideo"
+        width="100%"
+        height="100%"
+        controls
+        playsinline>
+
+        <source src="videos/video1.mp4" type="video/mp4">
+
+    </video>
+
+    </section>
+    <section id="memory-screen" style="display:none;">
+
+    <div class="memory-card">
+
+        <h1>Ek Aakhri Cheez... ❤️</h1>
+
+        <p id="memoryText">
+
+            Har tasveer ek kahani kehti hai...
+
+            <br><br>
+
+            Lekin kuch lamhe...
+
+            kisi kahani se bhi zyada khoobsurat hote hain. 🌹
+
+            <br><br>
+
+            Ab woh yaad aane wali hai...
+
+            Jo meri sabse favourite hai.
+
+            <br><br>
+
+            Ye sirf ek video nahi...
+
+            <br>
+
+            <b>Meri zindagi ki sabse khoobsurat memory hai. ❤️</b>
+
+        </p>
+
+        <button id="playMemory">
+
+            ▶ Play Our Memory ❤️
+
+        </button>
+
+    </div>
+
+    </section>
+            <section id="video2-screen" style="display:none;">
+
+    <video
+        id="memoryVideo"
+        width="100%"
+        height="100%"
+        controls
+        playsinline>
+
+        <source src="videos/video2.mp4" type="video/mp4">
+
+    </video>
+
+</section>
+        <section id="last-card" style="display:none;">
+
+    <div class="memory-card">
+
+        <h1>One Last Surprise... 🎁</h1>
+
+        <p>
+
+            Tumne yahan tak journey complete kar li... ❤️
+
+            <br><br>
+
+            Lekin...
+
+            <br><br>
+
+            Abhi ek surprise aur baaki hai. ✨
+
+        </p>
+
+        <button id="playLastVideo">
+
+            Open My Final Gift ❤️
+
+        </button>
+
+    </div>
+
+</section>
+        <section id="video3-screen" style="display:none;">
+
+    <video
+        id="finalVideo"
+        width="100%"
+        height="100%"
+        controls
+        playsinline>
+
+        <source src="videos/video3.mp4" type="video/mp4">
+
+    </video>
+
+</section>
+        <section id="ending-screen" style="display:none;">
+
+            <div class="ending-card">
+
+                <h1>Before You Go... ❤️</h1>
+
+                <p id="endingText">
+
+                    Dear Jaan Ji... ❤️
+
+                    <br><br>
+
+                    This wasn't just a birthday surprise...
+
+                    It was a small journey filled with memories,
+
+                    smiles,
+
+                    and moments that mean a lot to me.
+
+                    🌹
+
+                    <br><br>
+
+                    Some memories fade with time...
+
+                    But the moments spent with you never do.
+
+                    ❤️
+
+                    <br><br>
+
+                    On your special day,
+
+                    I pray that Allah fills your life with happiness,
+
+                    good health,
+
+                    peace,
+
+                    success,
+
+                    and endless blessings.
+
+                    🤲✨
+
+                    <br><br>
+
+                    Keep smiling...
+
+                    Because your smile is more beautiful than you know.
+
+                    🌸
+
+                    <br><br>
+
+                    🎂 Happy Birthday, Jaan Ji ❤️
+
+                </p>
+            </div>
+            <div class="signature">
+
+                Made with ❤️
+
+                <br><br>
+
+                Especially for
+
+                <br>
+
+                <span>Jaan Ji 🌹</span>
+
+                <br><br>
+
+                <small>
+
+                    From Someone
+
+                    <br>
+
+                    Who Wanted To Make You Smile. 😊
+
+                </small>
+
+            </div>
+            <div id="finalQuote">
+
+                <h2 id="movieEnding">
+                    The End...?
+                </h2>
+
+            </div>
+        </section>    
+    <div id="balloons">
+
+        <span>🎈</span>
+        <span>🎈</span>
+        <span>🎈</span>
+        <span>🎈</span>
+        <span>🎈</span>
+        <span>🎈</span>
+
+    </div>
+    <div id="fireworks">
+
+        <span class="firework">✨</span>
+        <span class="firework">💥</span>
+        <span class="firework">✨</span>
+        <span class="firework">🎆</span>
+        <span class="firework">✨</span>
+
+    </div>
+    <!-- Letter -->
+    <section id="letter-screen" style="display:none;"></section>
+
+    <!-- Birthday -->
+    <section id="birthday-screen" style="display:none;"></section>
+
+    <div id="hearts-container"></div>
+    <div id="sparkles-container"></div>
+        <audio id="bgMusic" loop>
+    <source src="music/music.mp3" type="audio/mpeg">
+</audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
